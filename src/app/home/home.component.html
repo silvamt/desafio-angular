@@ -1,0 +1,32 @@
+<div class="home-container">
+    <h1>Aproveite as ofertas</h1>
+    <div class="search-container">
+        <form>
+            <fa-icon [icon]="faSearch"></fa-icon>
+            <input type="text" placeholder="Busque por títulos" (input)="search($event)">
+
+        </form>
+    </div>
+    <div *ngIf="books.length > 0; else noBooks">
+        <div class="books-container">
+            <div class="book" *ngFor="let book of books">
+
+                <a routerLink="livros/{{ book.id }}"><img src='{{ book.img }}' alt="{{book.name}}"></a>
+                <h2>{{ book.name }}</h2>
+                <h3>{{book.price | currency:'BRL'}}</h3>
+                <h4>Em estoque: {{ book.quantity }}</h4>
+                <p><a routerLink="livros/{{ book.id }}">
+                        <fa-icon [icon]="faEye"></fa-icon>
+                    </a><a href="#">
+                        <fa-icon [icon]="faShoppingCart"></fa-icon>
+                    </a></p>
+
+            </div>
+        </div>
+    </div>
+    <ng-template #noBooks>
+        <h1>Buscando livros...</h1>
+    </ng-template>
+
+
+</div>

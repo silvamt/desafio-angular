@@ -1,0 +1,85 @@
+{
+    "livros":
+    [
+    {
+        "id": "1",
+        "name": "Estatística básica e sua prática",
+        "price": "176.73",
+        "quantity": "6",
+        "category": "estatistica",
+        "img": "https://i.zst.com.br/thumbs/12/19/33/1456399197.jpg"
+    },
+    {
+        "id": "2",
+        "name": "Sistema Único de Saúde - tudo que você precisa saber",
+        "price": "107.95",
+        "quantity": "7",
+        "category": "politicas",
+        "img": "https://images-submarino.b2w.io/produtos/1236238710/imagens/livro-sus-sistema-unico-de-saude-tudo-o-que-voce-precisa-saber/1236238710_1_large.jpg"
+    },
+    {
+        "id": "3",
+        "name": "Epidemiologia:teoria e prática",
+        "price": "257.15",
+        "quantity": "9",
+        "category": "epidemiologia",
+        "img": "https://m.media-amazon.com/images/P/B07ZDJX8K9.01._SCLZZZZZZZ_SX500_.jpg"
+    },
+    {
+        "id": "4",
+        "name": "Políticas e Sistema de Saúde no Brasil",
+        "price": "96.00",
+        "quantity": "11",
+        "category": "politicas",
+        "img": "https://m.media-amazon.com/images/I/51B6dn7l7QL.jpg"
+    },
+    {
+        "id": "5",
+        "name": "Introdução à bioestatística",
+        "price": "126.40",
+        "quantity": "8",
+        "category": "estatistica",
+        "img": "https://i.zst.com.br/thumbs/12/1/28/1458091171.jpg"
+    },
+    {
+        "id": "6",
+        "name": "Epidemiologia / Medronho",
+        "price": "132.05",
+        "quantity": "11",
+        "category": "epidemiologia",
+        "img": "https://images-submarino.b2w.io/produtos/6772706/imagens/livro-epidemiologia/6772706_1_xlarge.jpg"
+    },
+    {
+        "id": "7",
+        "name": "Epidemiologia Clínica",
+        "price": "116.00",
+        "quantity": "9",
+        "category": "epidemiologia",
+        "img": "https://a-static.mlcdn.com.br/800x560/livro-epidemiologia-clinica/livrariamartinsfontespaulista/947150/639f276d5556b5ac88da437ab3f7dd3d.jpg"
+    },
+    {
+        "id": "8",
+        "name": "Epidemiologia / Gordis",
+        "price": "240.00",
+        "quantity": "12",
+        "category": "epidemiologia",
+        "img": "https://m.media-amazon.com/images/P/B077P697QP.01._SCLZZZZZZZ_SX500_.jpg"
+    },
+    {
+        "id": "9",
+        "name": "Use a cabeça: estatística",
+        "price": "300.00",
+        "quantity": "3",
+        "category": "estatistica",
+        "img": "https://images-na.ssl-images-amazon.com/images/I/51dqbimIOaL._SX345_BO1,204,203,200_.jpg"
+    },
+    {
+        "id": "10",
+        "name": "Artigos científicos: como redigir, publicar e avaliar",
+        "price": "156.99",
+        "quantity": "11",
+        "category": "artigos",
+        "img": "https://images-submarino.b2w.io/produtos/111474655/imagens/livro-artigos-cientificos-como-redigir-publicar-e-avaliar/111474655_1_large.jpg"
+    }
+]
+}
