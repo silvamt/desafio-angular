@@ -1,11 +1,13 @@
 <div class="book" *ngIf="book">
-    <img src='{{ book.img }}' alt="{{ book.name }}">
-    <h2>{{ book.name }}</h2>
-    <h3>{{ book.price | currency:'BRL'}}</h3>
-    <h4>Em estoque: {{ book.quantity }}</h4>
-    <p><a routerLink="">
-            <fa-icon [icon]="faBackward"></fa-icon>
-        </a><a href="#">
-            <fa-icon [icon]="faShoppingCart"></fa-icon>
-        </a></p>
+  <img src="{{ book.img }}" alt="{{ book.name }}" />
+  <h2>{{ book.name }}</h2>
+  <h3>{{ book.price | currency: "BRL" }}</h3>
+  <h4>Em estoque: {{ book.quantity }}</h4>
+  <p>
+    <a routerLink="">
+      <fa-icon [icon]="faBackward"></fa-icon> </a
+    ><a href="#">
+      <fa-icon [icon]="faShoppingCart"></fa-icon>
+    </a>
+  </p>
 </div>

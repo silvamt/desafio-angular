@@ -1,64 +1,64 @@
 * {
-    padding: 0;
-    margin: 0;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    box-sizing: border-box;
-    color: #003366;
+  padding: 0;
+  margin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  box-sizing: border-box;
+  color: #003366;
 }
 
 a {
-    text-decoration: none;
-    color: #003366;
-    transition: .4s;
+  text-decoration: none;
+  color: #003366;
+  transition: 0.4s;
 }
 
 a:hover {
-    color: #009999;
+  color: #009999;
 }
 
 form {
-    width: 450 px;
-    margin: 0 auto;
+  width: 450 px;
+  margin: 0 auto;
 }
 
 .form-group {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 1em;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
 }
 
 .form-group label {
-    font-weight: bold;
-    font-sixe: .9em;
-    margin-bottom: .4em;
+  font-weight: bold;
+  font-sixe: 0.9em;
+  margin-bottom: 0.4em;
 }
 
 .form-group input,
 .form-group textarea {
-    padding: .6em;
-    color: #990000;
-    font-size: .8em;
+  padding: 0.6em;
+  color: #990000;
+  font-size: 0.8em;
 }
 
-input[type="cart"]{
-    background-color: #00ff99;
-    border: 2px solid transparent;
-    padding: .6em 1em;
-    font-weight: bold;
-    font-size: 1.1em;
-    cursor: pointer;
-    transition: .4s;
+input[type="cart"] {
+  background-color: #00ff99;
+  border: 2px solid transparent;
+  padding: 0.6em 1em;
+  font-weight: bold;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: 0.4s;
 }
 
-input[type="cart"]:hover{
-        color: #009999;
-    border-color: #009999;
-background-color: transparent;
+input[type="cart"]:hover {
+  color: #009999;
+  border-color: #009999;
+  background-color: transparent;
 }
 
 .validation-error p {
-    color: #990000;
-    margin-top: .4em;
-    border-left: 3px solid #990000;
-    padding-left: .2em;
+  color: #990000;
+  margin-top: 0.4em;
+  border-left: 3px solid #990000;
+  padding-left: 0.2em;
 }

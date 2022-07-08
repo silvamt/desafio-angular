@@ -1,23 +1,21 @@
 import { Injectable } from '@angular/core';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class MessagesService {
-
   message: string = '';
 
-  constructor() { }
+  constructor() {}
 
   add(message: string) {
-    this.message = message
+    this.message = message;
     setTimeout(() => {
-      this.clear()
+      this.clear();
     }, 4000);
   }
 
   clear() {
-    this.message = ''
+    this.message = '';
   }
-
 }

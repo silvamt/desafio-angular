@@ -1,63 +1,62 @@
 .home-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .home-container h1 {
-    margin-bottom: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 .books-container {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 80%;
-    margin: 0 auto;
-    justify-content: space-between;
-
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
 }
 
 .book {
-    width: 32%;
-    margin-bottom: 1em;
-    text-align: center;
+  width: 32%;
+  margin-bottom: 1em;
+  text-align: center;
 }
 
 .book img {
-    width: 100%;
-    margin-bottom: 1em;
+  width: 100%;
+  margin-bottom: 1em;
 }
 
-.book h3, .book h4,
+.book h3,
+.book h4,
 .book h2,
 .book p {
-    margin-bottom: 1em;
+  margin-bottom: 1em;
 }
 
 a {
-    color: #009999;
-    padding: .3em .6em;
+  color: #009999;
+  padding: 0.3em 0.6em;
 }
 
 .search-container {
-    margin-bottom: 2em;
-    width: 100%;
-    }
+  margin-bottom: 2em;
+  width: 100%;
+}
 
-.search-container form{
-    width: 30%;
-    position: relative;
-   
-}  
+.search-container form {
+  width: 30%;
+  position: relative;
+}
 .search-container input {
-    padding: .5em;
-    width: 100%;
-    text-align: center;
+  padding: 0.5em;
+  width: 100%;
+  text-align: center;
 }
 
 .search-container fa-icon {
-position:absolute;
-top: 8px;
-left: 8px;
+  position: absolute;
+  top: 8px;
+  left: 8px;
 }
